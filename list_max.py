@@ -9,8 +9,8 @@ def list_max(num_list):
             return num_list[0]
     else:
         return_value = list_max(num_list[1:])
-        return return_value \
-            if return_value > num_list[0] \
+        return return_value\
+            if return_value >= num_list[0]\
                 else num_list [0]
 
 
