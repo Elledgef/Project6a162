@@ -22,15 +22,6 @@ def list_max(num_list):
 
 
 
-num_list = [1,3,100,4]
-print(str(list_max(num_list)))
-
-
-
-
-num_list = [1,3,100,2]
-print(list_max(num_list))
-
 
 
 
